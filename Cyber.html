@@ -13,7 +13,7 @@
 <body>
     <h1 class ="gender"></h1>
     <script>
-        axios.get("https://api.genderize.io?name=luc")
+        axios.get("https://api.genderize.io?name=anna")
         .then(response=> {
             gen= response.data
             console.log(gen)
@@ -24,8 +24,8 @@
 
 <div class="container-fluid">
     <div class ="row">
-            <div class="col-sm-3 col-md-6" style="background-color: blue;">
-            <h1>Gender: <span id = "gen"></span><br/</h1>
+            <div class="col-sm-3 col-md-6">
+            <h1><span id = "gen"></span><br/</h1>
 </div>
 </body>
 </html>
